@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html>
+<body>
+<audio id="tome">  <source src="audios/tome.mp3" type="audio/mpeg"></audio>
+<audio id="chicote">	<source src="audios/chicote.mp3" type="audio/mpeg">  </audio>
+<audio id="risada_ladrao">	<source src="audios/risada_ladrao.mp3" type="audio/mpeg"></audio>
+<audio id="musica_romantica"><source src="audios/musica_romantica.mp3" type="audio/mpeg"></audio>
+<audio id="musica_luta">  <source src="audios/musica_luta.mp3" type="audio/mpeg"></audio>
+<audio id="fatality">  <source src="audios/fatality.mp3" type="audio/mpeg"></audio>
+<audio id="vai_dar_merda"><source src="audios/vai_dar_merda.mp3" type="audio/mpeg"></audio>
+<audio id="ta-com-cara-de-bravo"> <source src="audios/ta-com-cara-de-bravo.mp3" type="audio/mpeg"></audio>
+<audio id="naruto_sad_music"> <source src="audios/naruto_sad_music.mp3" type="audio/mpeg"></audio>
+<audio id="acabou_galvao"> <source src="audios/acabou_galvao.mp3" type="audio/mpeg"></audio>
+<audio id="gta_san_andreas"> <source src="audios/gta_san_andreas.mp3" type="audio/mpeg"></audio>
+<audio id="ele_gosta"> <source src="audios/ele_gosta.mp3" type="audio/mpeg"></audio>
+
+<center>
+<title>Sonoplastia</title>
+<p>Clique nos Botões e seja feliz</p>
+
+<hr>
+<p>TV</p>
+<button onclick="playAudioChicote()" type="button">Chicote</button>
+<button onclick="playAudioTome()" style="width:150;height:10" type="button">Tome </button>
+<button onclick="playAudioFatality()" type="button">Fatality</button>
+<button onclick="playAudioEleGosta()" type="button">Ele Gosta</button>
+
+<p>Meme</p>
+<button onclick="playTaComCaraDeBravo()" type="button">Cara de bravo</button>
+<button onclick="playAudioRisada()" type="button">Risada Ladrão</button>
+<button onclick="playAcabouGalvao()" type="button">Acabou Galvão</button>
+
+<p>Músicas Temas</p>
+<button onclick="playAudioMusicaNarutoSad()" type="button">Naruto Sad</button>
+<button onclick="playAudioVaiDarMerda()" type="button">Vair dar merda</button>
+<button onclick="playAudioMusicaRomantica()" type="button">Romântica</button>
+<button onclick="playAudioMusicaLuta()" type="button">Luta</button>
+<button onclick="playAudioGtaSanAndreas()" type="button">Mission Passed</button>
+
+<p></p>
+<button onclick="pauseTudo()" type="button">Pause Tudo</button> 
+</center>
+
+<script>
+var tome = document.getElementById("tome"); 
+var chicote = document.getElementById("chicote");
+var risada = document.getElementById("risada_ladraoAudio");
+var musica_romantica = document.getElementById("musica_romantica");
+var fatality = document.getElementById("fatality");
+var musica_luta = document.getElementById("musica_luta");
+var vai_dar_merda = document.getElementById("vai_dar_merda");
+var ta_com_cara_de_bravo = document.getElementById("ta-com-cara-de-bravo");
+var naruto_sad_music = document.getElementById("naruto_sad_music");
+var acabou_galvao = document.getElementById("acabou_galvao");
+var gta_san_andreas = document.getElementById("gta_san_andreas");
+var ele_gosta = document.getElementById("ele_gosta");
+
+function playAudioTome() { 
+  tome.play(); 
+} 
+
+function playAudioChicote() { 
+  chicote.play(); 
+} 
+
+function playAudioRisada() { 
+  risada_ladrao.play(); 
+} 
+
+function playAudioMusicaRomantica() { 
+  musica_romantica.play(); 
+}
+
+function playAudioMusicaLuta() { 
+  musica_luta.play(); 
+}
+
+function playAudioFatality() { 
+  fatality.play(); 
+}
+
+function playAudioVaiDarMerda() { 
+  vai_dar_merda.play(); 
+}
+
+function playTaComCaraDeBravo() { 
+  ta_com_cara_de_bravo.play(); 
+}
+
+function playAudioMusicaNarutoSad() { 
+  naruto_sad_music.play(); 
+}
+
+function playAcabouGalvao() { 
+  acabou_galvao.play(); 
+}
+
+function playAudioGtaSanAndreas() { 
+  gta_san_andreas.play(); 
+}
+
+function playAudioEleGosta() { 
+  ele_gosta.play(); 
+}
+
+
+function pauseTudo() { 
+  tome.pause();
+  chicote.pause();
+  risada_ladrao.pause();
+  musica_romantica.pause();
+  musica_luta.pause();
+  vai_dar_merda.pause();
+  fatality.pause();
+  ta_com_cara_de_bravo.pause();
+  naruto_sad_music.pause(); 
+  acabougalvao.pause(); 
+  gta_san_andreas.pause();
+  ele_gosta.pause();
+} 
+
+</script>
+</body>
+</html>
