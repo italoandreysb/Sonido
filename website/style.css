@@ -1,0 +1,11 @@
+@crarset "UTF-8";
+BODY {background-color: #ffffff;}
+p {
+    color: black;
+    background-color: transparent;
+}
+
+button {
+    color: black;
+    background-color: transparent;
+}
