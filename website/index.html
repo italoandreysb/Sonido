@@ -21,6 +21,8 @@
 <audio id="coisinho"> <source src="audios/coisinho.mp3" type="audio/mpeg"></audio>
 <audio id="hum_boiola"> <source src="audios/hum_boiola.mp3" type="audio/mpeg"></audio>
 <audio id="cafezinho"> <source src="audios/ainn_cafezinho.mp3" type="audio/mpeg"></audio>
+<audio id="cavalo"> <source src="audios/cavalo.mp3" type="audio/mpeg"></audio>
+<audio id="desligaComputadorAgora"> <source src="audios/desligaComputadorAgora.mp3" type="audio/mpeg"></audio>
 
 
 <center>
@@ -33,14 +35,17 @@
 <button onclick="playAudioTome()" style="width:150;height:10" type="button">Tome </button>
 <button onclick="playAudioFatality()" type="button">Fatality</button>
 <button onclick="playAudioEleGosta()" type="button">Ele Gosta</button>
+<button onclick="playAcabouGalvao()" type="button">Acabou Galvão</button>
+<button onclick="playAudioCavalo()" type="button">Cavalo</button>
 
 <p>Meme</p>
 <button onclick="playTaComCaraDeBravo()" type="button">Cara de bravo</button>
 <button onclick="playAudioRisada()" type="button">Risada Ladrão</button>
-<button onclick="playAcabouGalvao()" type="button">Acabou Galvão</button>
 <button onclick="playAudioCoisinho()" type="button">Coisinho</button>
 <button onclick="playAudioHumBoiola()" type="button">Hum Boiola</button>
 <button onclick="playAudioCafezinho()" type="button">Cafezinho</button>
+<button onclick="playAudioDesligaComputadorAgora()" type="button">Desliga o PC agora</button>
+
 
 <p>Músicas Temas</p>
 <button onclick="playAudioMusicaNarutoSad()" type="button">Naruto Sad</button>
@@ -69,6 +74,8 @@ var ele_gosta = document.getElementById("ele_gosta");
 var coisinho = document.getElementById("coisinho");
 var hum_boiola = document.getElementById("hum_boiola");
 var cafezinhoa = document.getElementById("cafezinho");
+var cavalo = document.getElementById("cavalo");
+var desligaComputadorAgora = document.getElementById("desligaComputadorAgora");
 
 function playAudioTome() { 
   tome.play(); 
@@ -130,6 +137,14 @@ function playAudioCafezinho() {
   cafezinho.play(); 
 }
 
+function playAudioCavalo() { 
+  cavalo.play(); 
+}
+
+function playAudioDesligaComputadorAgora() { 
+  desligaComputadorAgora.play(); 
+}
+
 function pauseTudo() { 
   tome.pause();
   chicote.pause();
@@ -147,7 +162,8 @@ function pauseTudo() {
   coisinho.pause();
   hum_boiola.pause();
   cafezinho.pause();
-
+  cavalo.pause();
+  desligaComputadorAgora.pause()
 } 
 
 </script>
